@@ -21,3 +21,10 @@ pra iniciar(entry point é o index.js)
 a configuração do banco é local.
 
 a porta pra testes em API - localhost:3000/users - pra get post update delete - veja a classe route
+
+** Para usar esse projeto
+npm install depois de baixado,verifique as versões
+npm audit fix
+
+erros 1147 são de organização de pastas, precisa identificar 
+os módulos que são os importantes.
