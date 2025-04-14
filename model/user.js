@@ -8,4 +8,5 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', userSchema);
 
+//Não esqueça de exportar o esquema
 module.exports = User;

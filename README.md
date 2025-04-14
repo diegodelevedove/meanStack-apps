@@ -1,4 +1,4 @@
-Projeto em pilha stack mean
+*** Projeto em pilha stack mean o mais simples possível ***
 
 mongo, express, angular
 

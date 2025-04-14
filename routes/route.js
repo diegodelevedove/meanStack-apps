@@ -2,7 +2,7 @@ const express = require('express');
 const User = require('../model/user');
 const router = express.Router();
 
-// Create a new user
+// Criar um novo usuário
 router.post('/users', async (req, res) => {
   const { name, email, age } = req.body;
 
@@ -16,7 +16,7 @@ router.post('/users', async (req, res) => {
   }
 });
 
-// Get all users
+// Obter todos os usuarios
 router.get('/users', async (req, res) => {
   try {
     const users = await User.find({});
@@ -27,7 +27,7 @@ router.get('/users', async (req, res) => {
   }
 });
 
-// Update a user
+// Update de usuario
 router.put('/users/:id', async (req, res) => {
   const { id } = req.params;
   const { name, email, age } = req.body;
@@ -41,7 +41,7 @@ router.put('/users/:id', async (req, res) => {
   }
 });
 
-// Delete a user
+// Delete usuario
 router.delete('/users/:id', async (req, res) => {
   const { id } = req.params;
 
